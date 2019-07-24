@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@color/back"
+        android:text="Màu đen!"
+        android:textColor="@color/white">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Button02"
+        android:background="@color/blue"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@id/Button01"
+        android:textColor="@color/white"
+        android:layout_below="@id/Button01"
+        android:text="Màu Xanh!">
+
+    </Button>
+
+    <Button
+        android:id="@+id/Button03"
+        android:background="@color/orange"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@id/Button02"
+        android:layout_below="@id/Button02"
+        android:text="Màu cam!">
+
+    </Button>
+
+</RelativeLayout>

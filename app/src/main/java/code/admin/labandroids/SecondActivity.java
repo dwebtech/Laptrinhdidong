@@ -11,13 +11,14 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.second);
+       // setContentView(R.layout.second);
+        setContentView(R.layout.color);
     }
     public void showMe(View v)
     {
         String msg;
         EditText et = (EditText)findViewById(R.id.EditText01);
-        msg = "Xin Chao" + et.getText().toString();
+        msg = "Xin Chao " + et.getText().toString();
         Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_LONG).show();
     }
 }
